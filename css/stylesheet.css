@@ -1,0 +1,86 @@
+@charset "UTF-8";
+html{
+    height: 100%;
+    font-size: 62.5%;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    background-color: #4f4f4f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 62.5%;
+    color: whitesmoke;
+    line-height: 1.1rem;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.background-image{
+    background-image: url("../img/atlanta-piedmont-park-night.jpg");
+    display: block;
+    filter: blur(5px);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-size: 1.7rem;
+    line-height: 1.2em;
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container {
+    background-color: rgba(51, 51, 51, .6);
+    padding: 6rem;
+}
+#header{
+    border-bottom: 4px solid orangered;
+    padding-bottom: .5rem;
+}
+#header #name{
+    font-size: 3.5rem;
+    line-height: 1.2em;
+}
+#info{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#info a{
+    color: orange;
+    transition: border-color .25s ease-out;
+    border-bottom: 1px dotted transparent;
+}
+#info a:hover{
+    border-bottom: 1px dotted orange;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#social img{
+    height: 5rem;
+}
+#social a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: transform .25s ease-out;
+}
+#social a:hover{
+    transform: scale(1.1);
+}
