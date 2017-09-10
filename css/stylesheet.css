@@ -21,7 +21,10 @@ a{
     color: whitesmoke;
 }
 .background-image{
-    background-image: url("../img/atlanta-piedmont-park-night.jpg");
+    background-image: url("../img/aerial.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: block;
     filter: blur(5px);
     position: fixed;
