@@ -1,0 +1,16 @@
+{
+    "background": {
+        "scripts": [ "request.js" ]
+    },
+    "description": "Redirects Amazon URLs to smile.amazon.com",
+    "manifest_version": 2,
+    "name": "Amazon Smile Redirect",
+    "permissions": [ "webRequest", "webRequestBlocking", "http://www.amazon.com/*", "https://www.amazon.com/*"],
+    "version": "1.0.0",
+    "applications": {
+        "gecko": {
+            "id": "amazon-smile-redirect@fortinj.com",
+            "update_url": "https://fortinj.com/asr-ext/updates.json"
+        }
+    }
+}

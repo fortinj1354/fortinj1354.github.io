@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "amazon-smile-redirect@fortinj.com": {
+            "updates": [
+                {
+                    "version": "1.0.0",
+                    "update_link": "https://fortinj.com/asr-ext/asr-1.0.0.xpi"
+                }
+            ]
+        }
+    }
+}
